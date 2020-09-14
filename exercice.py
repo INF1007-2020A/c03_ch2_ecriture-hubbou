@@ -25,7 +25,7 @@ def average(list):
     return somme / count
 
 def change(amount):
-    nbC
+    nbC = nb
 
 
 if __name__ == '__main__':
