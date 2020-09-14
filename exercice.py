@@ -24,8 +24,8 @@ def average(list):
         
     return somme / count
 
-def change(vec1, vec2):
-    return (vec1[0] * vec2[0] + vec1[1] * vec2[1]) == 0
+def change(amount):
+    
 
 
 if __name__ == '__main__':
