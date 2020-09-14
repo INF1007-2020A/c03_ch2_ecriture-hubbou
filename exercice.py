@@ -11,6 +11,8 @@ def majuscule(mot):
 def dissipated_power(voltage, resistance):
     return pow(voltage, 2) / resistance
 
+def ort
+
 
 if __name__ == '__main__':
     mots = [
