@@ -27,15 +27,15 @@ def average(list):
 def change(amount):
     if amount < 0:
         return None
-    
+
     nbVingt = amount // 20
     amount -= nbVingt * 20
     
-    nbVingt = amount // 20
-    amount -= nbVingt * 20
+    nbDix = amount // 20
+    amount -= nbDix * 20
     
-    nbVingt = amount // 20
-    amount -= nbVingt * 20
+    nbCinq = amount // 5
+    amount -= nbCinq * 5
     
     nbUn = amount
 
