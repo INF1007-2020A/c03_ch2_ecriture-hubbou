@@ -10,12 +10,8 @@ def majuscule(mot):
 
     
 
-def dissipated_power(voltage, resistance):
-    print("")
-    print(voltage)
-    print(resistance)
-    power = voltage**2 / resistance
-    print(power)
+def dissipated_power(voltRes):
+    power = volt[0]
     return power
 
 def orthogonal(vec1, vec2):
