@@ -8,7 +8,7 @@ def majuscule(mot):
         resultat += lettre
     return mot
 
-    def dissipated_power()
+    def dissipated_power(voltage, resistance)
 
 
 if __name__ == '__main__':
