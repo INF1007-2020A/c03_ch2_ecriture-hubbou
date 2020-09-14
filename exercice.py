@@ -39,7 +39,7 @@ def change(amount):
     
     nbUn = amount
 
-    return 
+    return (nbVingt, nbDix, nbCinq, nbUn)
 
 
 if __name__ == '__main__':
