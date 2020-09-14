@@ -11,7 +11,7 @@ def majuscule(mot):
     
 
 def dissipated_power(voltRes):
-    power = volt[0]**2 / voltRes[1]
+    power = voltRes[0]**2 / voltRes[1]
     return power
 
 def orthogonal(vec1, vec2):
