@@ -20,7 +20,7 @@ def average(list):
     for nb in list:
         if nb >= 0:
             somme += nb
-            count++
+            count += 1
         
     return somme / count
 
