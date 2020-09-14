@@ -15,9 +15,10 @@ def orthogonal(vec1, vec2):
     return (vec1[0] * vec2[0] + vec1[1] * vec2[1]) == 0
 
 def average(list):
-    
+    somme = 0
     for nb in list:
-
+        if nb >= 0:
+            somme +=
 
 
 if __name__ == '__main__':
