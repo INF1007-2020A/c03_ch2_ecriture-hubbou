@@ -27,6 +27,8 @@ def average(list):
 def change(amount):
     nbVingt = nbDix = nbCinq = nbUn = 0
 
+    
+
 
 if __name__ == '__main__':
     mots = [
