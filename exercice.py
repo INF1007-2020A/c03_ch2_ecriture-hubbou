@@ -19,7 +19,9 @@ def average(list):
     count = 0
     for nb in list:
         if nb >= 0:
-            somme += 
+            somme += nb
+            count++
+    return 
 
 
 if __name__ == '__main__':
