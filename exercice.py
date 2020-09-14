@@ -25,6 +25,8 @@ def average(list):
     return somme / count
 
 def change(amount):
+    if amount < 0
+
     nbVingt = nbDix = nbCinq = nbUn = 0
 
     nbVingt = amount // 20
@@ -36,8 +38,7 @@ def change(amount):
     nbVingt = amount // 20
     amount -= nbVingt * 20
     
-    nbVingt = amount // 20
-    amount -= nbVingt * 20
+    nbUn = amount
 
 
 if __name__ == '__main__':
