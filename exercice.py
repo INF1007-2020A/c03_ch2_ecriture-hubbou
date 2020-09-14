@@ -11,7 +11,7 @@ def majuscule(mot):
 def dissipated_power(voltage, resistance):
     return pow(voltage, 2) / resistance
 
-def orthogonal()
+def orthogonal(vec1)
 
 
 if __name__ == '__main__':
