@@ -8,6 +8,8 @@ def majuscule(mot):
         resultat += lettre
     return mot
 
+    def
+
 
 if __name__ == '__main__':
     mots = [
