@@ -16,9 +16,10 @@ def orthogonal(vec1, vec2):
 
 def average(list):
     somme = 0
+    count = 0
     for nb in list:
         if nb >= 0:
-            somme +=
+            somme += 
 
 
 if __name__ == '__main__':
