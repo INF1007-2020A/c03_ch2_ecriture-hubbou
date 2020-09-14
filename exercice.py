@@ -12,7 +12,7 @@ def dissipated_power(voltage, resistance):
     return pow(voltage, 2) / resistance
 
 def orthogonal(vec1, vec2):
-    vec1 as 
+    (vec1 as tuple)
 
 
 if __name__ == '__main__':
