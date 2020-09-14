@@ -25,7 +25,8 @@ def average(list):
     return somme / count
 
 def change(amount):
-    if amount < 0
+    if amount < 0:
+        return none
 
     nbVingt = nbDix = nbCinq = nbUn = 0
 
