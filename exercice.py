@@ -27,7 +27,8 @@ def average(list):
 def change(amount):
     nbVingt = nbDix = nbCinq = nbUn = 0
 
-    nbVingt = amount 
+    nbVingt = amount // 20
+    amount -= 
 
 
 if __name__ == '__main__':
