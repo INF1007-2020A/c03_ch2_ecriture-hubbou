@@ -9,7 +9,7 @@ def majuscule(mot):
     return mot
 
 def dissipated_power(voltage, resistance):
-    return pow
+    return pow(voltage, 2)
 
 
 if __name__ == '__main__':
