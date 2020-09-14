@@ -21,7 +21,7 @@ def average(list):
         if nb >= 0:
             somme += nb
             count++
-    return 
+    return somme / count
 
 
 if __name__ == '__main__':
