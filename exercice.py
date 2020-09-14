@@ -31,13 +31,15 @@ def change(amount):
     nbVingt = amount // 20
     amount -= nbVingt * 20
     
-    nbDix = amount // 20
-    amount -= nbDix * 20
+    nbDix = amount // 10
+    amount -= nbDix * 10
     
     nbCinq = amount // 5
     amount -= nbCinq * 5
     
     nbUn = amount
+
+    return 
 
 
 if __name__ == '__main__':
