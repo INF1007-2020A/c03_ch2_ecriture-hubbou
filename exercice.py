@@ -8,39 +8,6 @@ def majuscule(mot):
         resultat += lettre
     return mot
 
-def dissipated_power(voltage, resistance):
-    return pow(voltage, 2) / resistance
-
-def orthogonal(vec1, vec2):
-    return (vec1[0] * vec2[0] + vec1[1] * vec2[1]) == 0
-
-def average(list):
-    somme = 0
-    count = 0
-    for nb in list:
-        if nb >= 0:
-            somme += nb
-            count += 1
-        
-    return somme / count
-
-def change(amount):
-    if amount < 0:
-        return None
-
-    nbVingt = amount // 20
-    amount -= nbVingt * 20
-    
-    nbDix = amount // 10
-    amount -= nbDix * 10
-    
-    nbCinq = amount // 5
-    amount -= nbCinq * 5
-    
-    nbUn = amount
-
-    return (nbVingt, nbDix, nbCinq, nbUn)
-
 
 if __name__ == '__main__':
     mots = [
