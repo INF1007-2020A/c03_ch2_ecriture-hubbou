@@ -26,7 +26,7 @@ def average(list):
         
     return somme / count
 
-def change(amount):
+def bills(amount):
     if amount < 0:
         return None
 
