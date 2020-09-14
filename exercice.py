@@ -11,6 +11,7 @@ def majuscule(mot):
     
 
 def dissipated_power(voltage, resistance):
+    print(voltage)
     power = voltage**2 / resistance
     print(power)
     return power
